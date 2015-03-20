@@ -1,0 +1,25 @@
+{
+  "name": "IC Recordr",
+  "description": "An app to capture audio through microphone",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "N.Shimizu",
+    "url": "http://chikoski.info/"
+  },
+  "type": "privileged",
+  "permissions": {
+    "audio-capture": {
+      "description": "To record audio"
+    },
+    "device-storage:music": {
+      "description": "To store captured audio",
+      "access": "readwrite"
+    }
+  }
+}
